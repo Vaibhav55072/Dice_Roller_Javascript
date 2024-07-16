@@ -19,7 +19,7 @@
             
         }
         h1{
-            margin-top: 130px;
+            margin-top: 20px;
         }
         
         .app-title{
@@ -39,13 +39,20 @@
             
 
         }
+        .content{
+            border: 2px solid rgb(255, 162, 162);
+            width:50%;
+            display: block;
+            margin:80px auto;
+            border-radius: 80px;
+        }
 
 
     </style>
 </head>
-<body>
+<body><div class="content">
     <h1 class="app-title"><u>Roll the Dice</u></h1>
-    <div class="content">
+    
 
     <img src="simple-dice.png" alt="dice" class="dice-img" id="dice-img"/>
 
@@ -80,8 +87,9 @@
                 break;
 
             case 6:
-                imgElement.src='dice (7).png';
+                imgElement.src='dice (6).png';
                 break;
+
             default:
                 imgElement.src='simple-dice.png';
 
